@@ -1,0 +1,52 @@
+= Library of Congress MARC 21 in Ruby
+
+image:https://img.shields.io/gem/v/loc-marc.svg["Gem Version", link="https://rubygems.org/gems/loc-marc"]
+image:https://github.com/relaton/loc-marc/workflows/rake/badge.svg["Build Status", link="https://github.com/relaton/loc-marc/actions?workflow=rake"]
+image:https://codeclimate.com/github/relaton/loc-marc/badges/gpa.svg["Code Climate", link="https://codeclimate.com/github/relaton/loc-marc"]
+
+== Purpose
+
+This is a class-oriented Ruby library that parses LOC's MARC 21 data.
+
+This gem is developed using the MARC 21 Slim XSD schema.
+
+== Usage
+
+[source,ruby]
+----
+require 'loc-marc'
+
+# Single record under `<collection>`
+LocMarc::Collection.from_xml(File.read("spec/fixtures/record_1.xml"))
+
+# Full NIST Tech Pubs records
+# https://github.com/usnistgov/NIST-Tech-Pubs/tree/nist-pages/xml
+LocMarc::Collection.from_xml(File.read("reference/allrecords.xml"))
+----
+
+This gem also provides code lists provide by MARC 21.
+
+[source,ruby]
+----
+require 'loc-marc'
+
+LocMarc::Codes::Relator.lookup('wam')
+=> {:code=>"wam", :description=>"Writer of accompanying material", :deprecated=>false}
+
+LocMarc::Codes::Language.lookup('en')
+=> {:code=>"en", :description=>"Europe, Northern", :deprecated=>false}
+
+LocMarc::Codes::Country.lookup('us')
+=> {:code=>"us", :description=>"United States", :deprecated=>true}
+
+LocMarc::Codes::Country.lookup('us')
+=>{:code=>"xxu", :description=>"United States", :deprecated=>false},
+
+LocMarc::Codes::GeographicArea.lookup('a-cc-hk')
+=> {:code=>"a-cc-hk", :description=>"Hong Kong (China)", :deprecated=>false}
+----
+
+
+== License
+
+Copyright Ribose.

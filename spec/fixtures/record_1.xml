@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns="http://www.loc.gov/MARC21/slim"
+                 xmlns:marc="http://www.loc.gov/MARC21/slim">
+   <marc:record>
+      <marc:leader>02502aam a2200541Ii 4500</marc:leader>
+      <marc:controlfield tag="001">991000245609708106</marc:controlfield>
+      <marc:controlfield tag="005">20200114084154.0</marc:controlfield>
+      <marc:controlfield tag="008">190912s1998 mdu ot f000 0 eng d</marc:controlfield>
+      <marc:datafield tag="035" ind1=" " ind2=" ">
+         <marc:subfield code="a">(MdGbNIST)u188326</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="035" ind1=" " ind2=" ">
+         <marc:subfield code="a">(SIRSI)u188326</marc:subfield>
+         <marc:subfield code="9">ExL</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="035" ind1=" " ind2=" ">
+         <marc:subfield code="a">(Sirsi) u188326</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="035" ind1=" " ind2=" ">
+         <marc:subfield code="a">(Sirsi) o994302340</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="035" ind1=" " ind2=" ">
+         <marc:subfield code="a">(OCoLC)994302340</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="040" ind1=" " ind2=" ">
+         <marc:subfield code="a">NBS</marc:subfield>
+         <marc:subfield code="b">eng</marc:subfield>
+         <marc:subfield code="e">rda</marc:subfield>
+         <marc:subfield code="c">NBS</marc:subfield>
+         <marc:subfield code="d">NBS</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="049" ind1=" " ind2=" ">
+         <marc:subfield code="a">NBSS</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="090" ind1=" " ind2=" ">
+         <marc:subfield code="a">QC100</marc:subfield>
+         <marc:subfield code="b">.U56 no.6229 1998</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="100" ind1="1" ind2=" ">
+         <marc:subfield code="a">Grosshandler, William Lytle.</marc:subfield>
+         <marc:subfield code="0">https://id.loc.gov/authorities/names/n86864993</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="245" ind1="1" ind2="0">
+         <marc:subfield code="a">Lean flammability limit as a fundamental refrigerant
+                property/</marc:subfield>
+         <marc:subfield code="c">William Grosshandler; Michelle Donnelly; Carole Womeldorf.</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="264" ind1=" " ind2="1">
+         <marc:subfield code="a">Gaithersburg, MD:</marc:subfield>
+         <marc:subfield code="b">U.S. Dept. of Commerce, National Institute of Standards and
+                Technology;</marc:subfield>
+         <marc:subfield code="c">1998.</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="300" ind1=" " ind2=" ">
+         <marc:subfield code="a">1 online resource.</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="336" ind1=" " ind2=" ">
+         <marc:subfield code="a">text</marc:subfield>
+         <marc:subfield code="2">rdacontent</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="337" ind1=" " ind2=" ">
+         <marc:subfield code="a">computer</marc:subfield>
+         <marc:subfield code="2">rdamedia</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="338" ind1=" " ind2=" ">
+         <marc:subfield code="a">online resource</marc:subfield>
+         <marc:subfield code="2">rdacarrier</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="490" ind1="1" ind2=" ">
+         <marc:subfield code="a">NISTIR ;</marc:subfield>
+         <marc:subfield code="v">6229</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="500" ind1=" " ind2=" ">
+         <marc:subfield code="a">September 1, 1998.</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="500" ind1=" " ind2=" ">
+         <marc:subfield code="a">Title from PDF title page (viewed June 2, 2017).</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="504" ind1=" " ind2=" ">
+         <marc:subfield code="a">Includes bibliographical references.</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="538" ind1=" " ind2=" ">
+         <marc:subfield code="a">Mode of access: World Wide Web.</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="538" ind1=" " ind2=" ">
+         <marc:subfield code="a">Systems requirements: Adobe Acrobat PDF reader.</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="590" ind1=" " ind2=" ">
+         <marc:subfield code="a">NISTPUB-EBOOK</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="596" ind1=" " ind2=" ">
+         <marc:subfield code="a">1</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="598" ind1=" " ind2=" ">
+         <marc:subfield code="a">NISTIR</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="650" ind1=" " ind2="0">
+         <marc:subfield code="a">Refrigerants</marc:subfield>
+         <marc:subfield code="0">https://id.loc.gov/authorities/subjects/sh85112274</marc:subfield>
+         <marc:subfield code="x">Flammability.</marc:subfield>
+         <marc:subfield code="0">https://id.loc.gov/authorities/subjects/sh00005757</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="650" ind1=" " ind2="7">
+         <marc:subfield code="a">Refrigerants.</marc:subfield>
+         <marc:subfield code="2">fast</marc:subfield>
+         <marc:subfield code="0">https://id.worldcat.org/fast/1092702</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="655" ind1=" " ind2="7">
+         <marc:subfield code="a">Technical reports.</marc:subfield>
+         <marc:subfield code="2">lcgft</marc:subfield>
+         <marc:subfield code="0">https://id.loc.gov/authorities/genreForms/gf2015026093</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="655" ind1=" " ind2="7">
+         <marc:subfield code="a">Technical reports.</marc:subfield>
+         <marc:subfield code="2">fast</marc:subfield>
+         <marc:subfield code="0">https://id.worldcat.org/fast/1941336</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="700" ind1="1" ind2=" ">
+         <marc:subfield code="a">Grosshandler, William Lytle.</marc:subfield>
+         <marc:subfield code="0">https://id.loc.gov/authorities/names/n86864993</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="700" ind1="1" ind2=" ">
+         <marc:subfield code="a">Donnelly, Michelle.</marc:subfield>
+         <marc:subfield code="0">https://id.loc.gov/authorities/names/no2021139801</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="700" ind1="1" ind2=" ">
+         <marc:subfield code="a">Womeldorf, Carole.</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="710" ind1="2" ind2=" ">
+         <marc:subfield code="a">National Institute of Standards and Technology (U.S.)</marc:subfield>
+         <marc:subfield code="0">https://id.loc.gov/authorities/names/n88112126</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="830" ind1=" " ind2="0">
+         <marc:subfield code="a">NISTIR; NIST IR; NIST interagency report; NIST internal report
+                ;</marc:subfield>
+         <marc:subfield code="v">6229.</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="856" ind1="4" ind2="0">
+         <marc:subfield code="u">https://doi.org/10.6028/NIST.IR.6229</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="901" ind1=" " ind2=" ">
+         <marc:subfield code="a">TS-IR</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="904" ind1=" " ind2=" ">
+         <marc:subfield code="a">MARCIVE (2023-03-03)</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="949" ind1=" " ind2=" ">
+         <marc:subfield code="a">QC100 .U56 NO.6229 1998</marc:subfield>
+         <marc:subfield code="w">LC</marc:subfield>
+         <marc:subfield code="c">1</marc:subfield>
+         <marc:subfield code="i">188326-1001</marc:subfield>
+         <marc:subfield code="l">WEBSITE</marc:subfield>
+         <marc:subfield code="m">NIST</marc:subfield>
+         <marc:subfield code="r">Y</marc:subfield>
+         <marc:subfield code="s">Y</marc:subfield>
+         <marc:subfield code="t">E-BOOK</marc:subfield>
+         <marc:subfield code="u">1/14/2020</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="956" ind1="4" ind2="0">
+         <marc:subfield code="u">https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6229.pdf</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="994" ind1=" " ind2=" ">
+         <marc:subfield code="a">C0</marc:subfield>
+         <marc:subfield code="b">NBS</marc:subfield>
+      </marc:datafield>
+      <marc:datafield tag="999" ind1=" " ind2=" ">
+         <marc:subfield code="a">QC100 .U56 NO.6229 1998</marc:subfield>
+         <marc:subfield code="w">LC</marc:subfield>
+         <marc:subfield code="c">1</marc:subfield>
+         <marc:subfield code="i">188326-1001</marc:subfield>
+         <marc:subfield code="l">WEBSITE</marc:subfield>
+         <marc:subfield code="m">NIST</marc:subfield>
+         <marc:subfield code="r">Y</marc:subfield>
+         <marc:subfield code="s">Y</marc:subfield>
+         <marc:subfield code="t">E-BOOK</marc:subfield>
+         <marc:subfield code="u">1/14/2020</marc:subfield>
+      </marc:datafield>
+   </marc:record>
+</marc:collection>
