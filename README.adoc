@@ -21,7 +21,9 @@ LocMarc::Collection.from_xml(File.read("spec/fixtures/record_1.xml"))
 
 # Full NIST Tech Pubs records
 # https://github.com/usnistgov/NIST-Tech-Pubs/tree/nist-pages/xml
-LocMarc::Collection.from_xml(File.read("reference/allrecords.xml"))
+# The file has been split because of GitHub size limits
+LocMarc::Collection.from_xml(File.read("reference/allrecords-1.xml"))
+LocMarc::Collection.from_xml(File.read("reference/allrecords-2.xml"))
 ----
 
 This gem also provides code lists provide by MARC 21.
